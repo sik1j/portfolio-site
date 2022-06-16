@@ -1,0 +1,74 @@
+#root {
+  background-color: #eee;
+}
+
+.App {
+  position: relative;
+  height: 4500px;
+  max-width: 1333px;
+  margin-inline: auto;
+}
+
+.below {
+  position: absolute;
+  bottom: 4rem;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Valencia';
+  src: url('./assets/fonts/valencia/Valencia.ttf');
+}
+
+@font-face {
+  font-family: 'AvenirRoman';
+  src: url('./assets/fonts/avenir/Avenir-Roman-12.ttf');
+}
+
+.valencia {
+  font-family: 'Valencia', cursive;
+}
+
+.avenirRoman {
+  font-family: 'avenirRoman';
+}
+
+.sen {
+  font-family: 'Sen', sans-serif;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img,
+picture {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ul {
+  list-style: inherit;
+}

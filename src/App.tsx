@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import Hero from "./components/hero/Hero";
+import Skills from "./components/skills/Skills";
+import Work from "./components/work/Work";
 
 function App() {
+  const [scrollPos, setScrollPos] = useState(0);
+  const handleScroll = () => {
+    const pos = window.scrollY;
+    console.log(pos);
+    setScrollPos(pos);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App sen">
+      <Hero />
+      <About scrollPos={scrollPos} />
+      <Work scrollPos={scrollPos} />
+      <div className="below">
+        <Skills scrollPos={scrollPos} />
+        <Contact />
+      </div>
     </div>
   );
 }

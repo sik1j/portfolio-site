@@ -1,0 +1,17 @@
+.container {
+  height: 100vh;
+  position: relative;
+}
+
+.img {
+  position: fixed;
+  width: 40%;
+  top: 25vh;
+  right: 2.5vw;
+  border: 2px solid black;
+  display: grid;
+}
+
+.borderRound {
+  border-radius: 5px;
+}

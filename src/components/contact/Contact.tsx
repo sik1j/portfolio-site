@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import Mail from "@heroicons/react/outline/MailIcon";
-import { BsInstagram, BsGithub } from "react-icons/bs";
-import { VscGithubAlt, VscGithub } from "react-icons/vsc";
+import { BsInstagram } from "react-icons/bs";
+import { VscGithub } from "react-icons/vsc";
 
 interface Props {}
 

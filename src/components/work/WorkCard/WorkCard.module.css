@@ -1,0 +1,42 @@
+.container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.aside {
+  padding: 5%;
+}
+
+.main {
+  padding: 5% 5% 5% 10%;
+}
+
+.index {
+  font-size: 25px;
+}
+
+.title {
+  font-size: 70px;
+  margin-bottom: 3rem;
+}
+
+.skills {
+  font-size: 25px;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.skill:not(:first-child)::before {
+  content: '  •  ';
+}
+
+
+.description {
+  font-size: 25px;
+  line-height: 1.4em;
+  max-width: 700px;
+}

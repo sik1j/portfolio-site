@@ -1,38 +1,74 @@
+#root {
+  background-color: #eee;
+}
+
 .App {
-  text-align: center;
+  position: relative;
+  height: 4500px;
+  max-width: 1333px;
+  margin-inline: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.below {
+  position: absolute;
+  bottom: 4rem;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Valencia';
+  src: url('./assets/fonts/valencia/Valencia.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'AvenirRoman';
+  src: url('./assets/fonts/avenir/Avenir-Roman-12.ttf');
 }
 
-.App-link {
-  color: #61dafb;
+.valencia {
+  font-family: 'Valencia', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avenirRoman {
+  font-family: 'avenirRoman';
+}
+
+.sen {
+  font-family: 'Sen', sans-serif;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img,
+picture {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ul {
+  list-style: inherit;
 }

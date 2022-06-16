@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.20155d77.css",
-    "main.js": "/portfolio-site/static/js/main.5a93701e.js",
+    "main.js": "/portfolio-site/static/js/main.20e340b1.js",
     "static/media/JSKW.PNG": "/portfolio-site/static/media/JSKW.473bc4ba06ccfe3b504f.PNG",
     "static/media/Inter-A.PNG": "/portfolio-site/static/media/Inter-A.2ac9b2cbff10e116961b.PNG",
     "static/media/Avenir-Roman-12.ttf": "/portfolio-site/static/media/Avenir-Roman-12.c0f2c1bfb99c316e4497.ttf",
@@ -9,10 +9,10 @@
     "static/media/LocalLibrary.PNG": "/portfolio-site/static/media/LocalLibrary.ad926174e59e7f6c3107.PNG",
     "index.html": "/portfolio-site/index.html",
     "main.20155d77.css.map": "/portfolio-site/static/css/main.20155d77.css.map",
-    "main.5a93701e.js.map": "/portfolio-site/static/js/main.5a93701e.js.map"
+    "main.20e340b1.js.map": "/portfolio-site/static/js/main.20e340b1.js.map"
   },
   "entrypoints": [
     "static/css/main.20155d77.css",
-    "static/js/main.5a93701e.js"
+    "static/js/main.20e340b1.js"
   ]
 }

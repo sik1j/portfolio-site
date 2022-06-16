@@ -1,0 +1,21 @@
+.container {
+  margin-top: 6rem;
+  margin-inline: 5vw;
+}
+
+.title {
+  font-size: 100px;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  width: 80%;
+  margin-inline: auto;
+}
+
+.contactInfo>a>* {
+  height: 80px;
+  width: 80px;
+}

@@ -1,0 +1,17 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 140px;
+  animation-delay: 500ms;
+}
+
+.title {
+  font-size: 40px;
+  animation-delay: 1200ms;
+}

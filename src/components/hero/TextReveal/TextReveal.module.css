@@ -1,0 +1,27 @@
+.animate {
+  display: relative;
+  animation-name: textReveal;
+  animation-duration: 1000ms;
+  animation-timing-function: cubic-bezier(0, 0.1, 0.12, 0.99);
+  animation-fill-mode: forwards;
+  transform: translateY(115%);
+}
+
+@keyframes textReveal {
+  from {
+    transform: translateY(115%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.whiteBlock {
+  position: absolute;
+  inset: 0;
+  background-color: #eee;
+  width: 120%;
+  height: 130%;
+  transform: translateY(80%);
+}

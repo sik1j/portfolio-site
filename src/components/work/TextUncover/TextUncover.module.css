@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.animation {
+  animation-name: uncover;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 0.4);
+  animation-duration: 1200ms;
+  animation-fill-mode: forwards;
+  position: absolute;
+  inset: 0;
+  width: 150%;
+  background-color: #333;
+}
+
+.textShow {
+  animation: textShow;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes uncover {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes textShow {
+  0% {
+    opacity: 0;
+  }
+
+  99% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
